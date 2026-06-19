@@ -1,2 +1,0 @@
-# MVP
-MVP APP FOR SUNO AI
