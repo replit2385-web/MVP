@@ -1,0 +1,53 @@
+export const S = {
+  card: {
+    background: 'rgba(20,14,40,0.8)',
+    border: '1px solid rgba(124,58,237,0.2)',
+    borderRadius: 14,
+  },
+  infoCard: {
+    background: 'rgba(6,182,212,0.07)',
+    border: '1px solid rgba(6,182,212,0.2)',
+    borderRadius: 10,
+  },
+  warnCard: {
+    background: 'rgba(239,68,68,0.07)',
+    border: '1px solid rgba(239,68,68,0.2)',
+    borderRadius: 10,
+  },
+  successCard: {
+    background: 'rgba(34,197,94,0.07)',
+    border: '1px solid rgba(34,197,94,0.2)',
+    borderRadius: 10,
+  },
+  input: {
+    background: 'rgba(0,0,0,0.5)',
+    border: '1px solid rgba(124,58,237,0.25)',
+    borderRadius: 8,
+    color: '#f1f5f9',
+    padding: '8px 12px',
+    fontSize: 14,
+    width: '100%',
+    outline: 'none',
+    fontFamily: 'inherit',
+  },
+  label: {
+    display: 'block',
+    fontSize: 11,
+    fontWeight: 700,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+    color: '#64748b',
+    marginBottom: 6,
+  },
+  pill: (active) => ({
+    padding: '4px 12px',
+    borderRadius: 999,
+    fontSize: 12,
+    cursor: 'pointer',
+    transition: 'all 0.15s',
+    border: 'none',
+    background: active ? 'rgba(124,58,237,0.3)' : 'rgba(255,255,255,0.04)',
+    outline: `1px solid ${active ? 'rgba(124,58,237,0.6)' : 'rgba(255,255,255,0.08)'}`,
+    color: active ? '#c4b5fd' : '#475569',
+  }),
+}
